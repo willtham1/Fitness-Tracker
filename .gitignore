@@ -1,18 +1,19 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+.DS_Store
 
-# Other files and folders
-.settings/
+# Images
+images/avatars/
+images/captchas/
+images/smileys/
+images/member_photos/
+images/signature_attachments/
+images/pm_attachments/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# For security do not publish the following files
+system/expressionengine/config/database.php
+system/expressionengine/config/config.php
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Caches
+sized/
+thumbs/
+_thumbs/
+*/expressionengine/cache/*
